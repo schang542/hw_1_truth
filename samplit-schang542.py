@@ -4,5 +4,4 @@ import random
 with open(sys.argv[1], mode='r', newline='') as file:
     for line in file:
         if random.random() < 0.01:
-            total+=1
             print(line.strip())
